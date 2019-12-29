@@ -30,4 +30,8 @@
 4) yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 5) yarn add sequelize
 5.1) yarn add sequelize-cli -D
+5.2) yarn sequelize migration:create --name=create-users
+5.3) yarn sequelize db:migrate
+5.4) yarn sequelize db:migrate:undo
+5.5) yarn sequelize db:migrate:undo:all
 6) yarn add pg pg-hstore
