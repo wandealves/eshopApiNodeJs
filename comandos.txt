@@ -28,3 +28,6 @@
 ],
 
 4) yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+5) yarn add sequelize
+5.1) yarn add sequelize-cli -D
+6) yarn add pg pg-hstore
