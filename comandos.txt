@@ -1,1 +1,2 @@
 1) yarn add express
+2) yarn add sucrase nodemon -D = O sucrase é usado para import no lugar de require
