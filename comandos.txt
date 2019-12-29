@@ -1,2 +1,30 @@
 1) yarn add express
 2) yarn add sucrase nodemon -D = O sucrase é usado para import no lugar de require
+
+3) yarn add eslint -D = Para verificar s segue o padrão de código
+3.1) yarn eslint --init
+3.2) yarn eslint --fix src --ext .js
+
+-settings.json
+
+"eslint.autoFixOnSave": true,
+"eslint.validate": [
+    {
+        "language": "javascript",
+        "autoFix": true
+    },
+    {
+        "language": "javascriptreact",
+        "autoFix": true
+    },
+    {
+        "language": "typescript",
+        "autoFix": true
+    },
+    {
+        "language": "typescriptreact",
+        "autoFix": true
+    }
+],
+
+4) yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
