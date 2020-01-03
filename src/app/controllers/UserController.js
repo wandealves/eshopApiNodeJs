@@ -1,7 +1,7 @@
 import User from '../models/User';
 
 class UserController {
-    async post(req, res) {
+    async create(req, res) {
         const userExists = await User.findOne({
             where: { email: req.body.email },
         });
@@ -12,6 +12,10 @@ class UserController {
 
         const { id, name, email } = await User.create(req.body);
         return res.json({ id, name, email });
+    }
+
+    async update(req, res) {
+        return res.json(true);
     }
 }
 
