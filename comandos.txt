@@ -36,3 +36,4 @@
 5.5) yarn sequelize db:migrate:undo:all
 6) yarn add pg pg-hstore
 7) yarn add bcryptjs
+8) yarn add jsonwebtoken
