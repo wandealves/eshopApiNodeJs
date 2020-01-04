@@ -37,3 +37,4 @@
 6) yarn add pg pg-hstore
 7) yarn add bcryptjs
 8) yarn add jsonwebtoken
+9) yarn add yup
